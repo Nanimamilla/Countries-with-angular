@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CmsChangeComponent } from './cms-change.component';
+import { Forms1Component } from './forms1.component';
 
-describe('CmsChangeComponent', () => {
-  let component: CmsChangeComponent;
-  let fixture: ComponentFixture<CmsChangeComponent>;
+describe('Forms1Component', () => {
+  let component: Forms1Component;
+  let fixture: ComponentFixture<Forms1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CmsChangeComponent ]
+      declarations: [ Forms1Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CmsChangeComponent);
+    fixture = TestBed.createComponent(Forms1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
